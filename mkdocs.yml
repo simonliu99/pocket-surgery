@@ -1,0 +1,29 @@
+site_name: Pocket Surgery
+theme:
+  name: material
+  features:
+    - naviation.tracking
+    - navigation.tabs
+    - navigation.prune
+    # - navigation.indexes
+    - toc.follow
+    - toc.integrate
+
+plugins:
+  - glightbox
+  - search
+
+# Extensions
+markdown_extensions:
+  - attr_list
+
+nav:
+  - Welcome: 
+    - Mission Statement: index.md
+    - How to Use: how-to-use.md
+  - Plastic Surgery:
+    - plastic/plastic-overview.md
+    - Breast Reduction: plastic/breast-reduction.md
+  - Thoracic Surgery:
+    - thoracic/thoracic-overview.md
+    - Heart Transplant: thoracic/heart-transplant.md
